@@ -8,10 +8,10 @@ Windows x64 downloads for the VENUES self-service kiosk.
 2. Run `VenuesKiosk.exe` and enter the API server address.
 3. Keep the `ui` folder beside the executable.
 
-Right-click the VENUES tray icon to open the kiosk, change the server address,
+Right-click the VENUES tray icon to open the kiosk, change and test the server address,
 check for updates, install an available update, or exit.
 
-Launch `VenuesKiosk.exe --kiosk` for full-screen mode. Escape minimizes the
+The app opens full-screen by default with no title bar or window buttons. Use `--windowed` only for testing. Escape minimizes the
 kiosk; Ctrl+Alt+Q exits. Updates preserve the saved server address.
 
 Requires Windows x64 and the Microsoft Edge WebView2 runtime. The .NET
